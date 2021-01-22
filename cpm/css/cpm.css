@@ -1,0 +1,219 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: roboto, aleo, arapey;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+    #navBarToggle {
+        border-radius: 5em
+    }
+    
+    nav {
+        background: white;
+        margin-top: -15px;
+    }
+    
+    a.nav-link {
+        color: black;
+        font-size: 1em;
+    }
+    
+    a.nav-link:hover {
+        font-size: 1.5em;
+        color: red;
+        transition: 0.5s;
+    }
+    
+    .jumbotron {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .jumbotron {
+        content: "";
+        position: abolute;
+        top: 0px;
+        right: 0px;
+        bottom: left;
+        left: 0px;
+        transition: 2s;
+        background: url(../image/jumbotronimage.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 1em;
+        color: rgb(255, 0, 0)
+    }
+    
+    .jumbotron:hover {
+        opacity: 0.5;
+        color: rgb(158, 145, 145)
+    }
+    
+    .carousel {
+        margin-top: 1px
+    }
+    
+    .jumbotron h4 {
+        font-family: fantasy;
+        position: relative;
+    }
+    
+    .theme {
+        padding: 1em;
+        margin: auto;
+        height: 30vh;
+        border-color: lightcoral;
+    }
+    
+    .animated-text {
+        color: red;
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 20px;
+        left: 180px;
+        margin-top: 1em;
+        background: white;
+        padding: 0 40px;
+        height: 40px;
+        overflow: hidden
+    }
+    
+    .line:first-child {
+        animation: anim 60s infinite
+    }
+    
+    @keyframes anim {
+        0% {
+            margin-top: 0
+        }
+        16% {
+            margin-top: -60px
+        }
+        33% {
+            margin-top: -120px
+        }
+        50% {
+            margin-top: -180px
+        }
+        66% {
+            margin-top: -120px
+        }
+        82% {
+            margin-top: -60px
+        }
+        100% {
+            margin-top: 0
+        }
+    }
+    
+    .GodGeneral {
+        background: linear-gradient(180deg, navy, red);
+        padding: 2em;
+        padding: 0.5em
+    }
+    
+    .GodGeneral h3 {
+        color: white;
+        text-align: center
+    }
+    
+    .missionStatement {
+        padding: 1em 2em;
+        list-style-position: inside;
+    }
+    
+    .sundayService {
+        line-height: 7px;
+        margin-top: 20px;
+        padding: 0.5em
+    }
+    
+    .midWeekService {
+        line-height: 7px;
+        margin-top: 20px;
+        padding: 0.5em;
+    }
+    
+    .weekEndService {
+        line-height: 7px;
+        margin-top: 20px;
+        padding: 0.5em
+    }
+    
+    .sidebar {
+        background-color: black;
+        text-align: center;
+        padding: 0.7em 2em;
+        color: white
+    }
+    
+    .card-body {
+        height: 70px;
+        margin-top: -5px
+    }
+    
+    .devotionContentA,
+    .devotionContentB,
+    .devotionContentC,
+    .devotionContentD,
+    .devotionContentE {
+        display: none;
+        PADDING: 2EM
+    }
+    
+    .devotionMenuA,
+    .devotionMenuB,
+    .devotionMenuC,
+    .devotionMenuD,
+    .devotionMenuE {
+        cursor: pointer;
+        margin: 0.5em
+    }
+    
+    .badge:hover {
+        background: blue
+    }
+    /* .devotionMenuE {
+        margin: 2em;
+        cursor: pointer
+    } */
+    
+    .devotion {
+        PADDING: 1EM;
+        background-image: url(../image/devotionimg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    
+    .gatheringTime {
+        position: relative
+    }
+    
+    .missions {
+        position: relative
+    }
+    
+    footer {
+        background: rgb(158, 144, 144);
+        padding: 1em 3em;
+        text-align: center;
+        color: white;
+        font-size: 0.8em
+    }
+    
+    @media (max-width:786px) {
+        .navbar-nav {
+            background: url(../image/cpmlogo.png);
+            background-position: center;
+            background-size: contain;
+        }
+    }
